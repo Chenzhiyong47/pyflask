@@ -11,7 +11,7 @@
         $("#motor_start").click(function () {
             $.ajax({
                 url: "/motor", data: {"motor_order": "start"}, success: function (data) {
-                    alert("motor state" + ": " + data);
+                   // alert("motor state" + ": " + data);
                 }
             });
         });
@@ -23,7 +23,7 @@
         $("#motor_stop").click(function () {
             $.ajax({
                 url: "/motor", data: {"motor_order": "stop"}, success: function (data) {
-                    alert("motor state" + ": " + data);
+                   // alert("motor state" + ": " + data);
                 }
             });
         });
