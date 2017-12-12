@@ -18,7 +18,7 @@
 		sudo pip3 install SQLAlchemy
 		sudo pip3 install mysqlclient
 
-    3. 项目还需要：
+    3. 项目环境：
 		sudo pip3 install rpi.gpio
 		hardware request: 树莓派、超声测距模块（型号：Sonar_V1.00）、步进动机（型号：TB6600盒式步进电机驱动器）
 
